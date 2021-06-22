@@ -1,0 +1,248 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+#head-bar, h1{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Rowdies', serif;
+    padding-top: 3px;
+}
+header{
+    height: 10%;
+    background-color: #1B2C37;
+}
+
+#left-panel{
+    width: 20%;
+    height: 90%;
+    float: left;
+    background-color: #142129;
+}
+#right-panel{
+    background-image: url(../img/temple_banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;     
+}
+.right-panel{
+    width: 80%;
+    height: 90%;
+    background-color: #C6C7C4;
+    float: left;
+    margin-right: 0;
+}
+#content-box{
+    color: aliceblue;
+    margin: 20%;
+    margin-left: 5%;
+    font-weight: 500;
+    font-family: 'Josefin Sans';
+}
+.Menu{
+    
+    color: aliceblue;
+    list-style: none;
+}
+.Menu a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.Menu a:hover{
+    color: seagreen;
+}
+
+.Menu, li{
+    margin: 5% 0;
+}
+.right-panel h3{
+    margin:0 50px;
+    font-family: Roboto Slab;
+    font-weight: 700;
+    background-color: #96ADC8;
+    padding: 2%;
+    text-shadow: 3px 2px 4px #032B43;
+    
+}
+#login-box{
+    position: relative;
+    top: 10%;
+    font-family: ;
+    margin: 0 25%;
+    background-color: #B4D6D3;
+    padding: 5%;
+    width: 50%;
+    border-radius: 4%;
+    box-shadow: 5px 5px 5px 5px #142129;
+    
+}
+
+#login tr td{
+    padding: 5px 30px;
+    width: 100%;
+}
+
+#login input{
+    width: 120%;
+    height: 100%;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+#login tr td h6{
+    padding: 0;
+    margin-bottom: 0;
+    font-family: 'Josefin Sans';
+    font-weight: 700;
+    opacity: 0.8;
+}
+#login-btn{
+    background-color:  #032B43;
+    color: aliceblue;
+    font-style: italic;
+    font-weight: 700;
+}
+.footer{
+    padding: 5px;
+    width: 70%;
+    margin:0 5%;
+    position: fixed;
+    bottom: 0;
+    background-color: #142129;
+    color: aliceblue;
+    text-align: center;
+}
+
+.reg-form{
+    background-color: gray;
+    margin: 14px 8%;
+    padding: 3%;
+    border: 1px solid #142129;
+    font-family: 'Josefin Sans';
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px #032B43;
+    
+}
+
+.reg-form h4{
+    background-color: gray;
+    
+}
+#RegistrationForm tr td{
+    width: 40%;
+    padding: 1%;
+}
+.inputClass{
+    width: 150%;
+    padding: 4% 5%;
+    border-radius: 3px;
+    border: none;
+}
+#submit-btn{
+    background-color:  #032B43;
+    color: aliceblue;
+    font-style: italic;
+    font-weight: 700;
+    margin: 5px 0;
+}
+#admin-panel{
+   background-image: url(../img/Linux-Wallpaper-31.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    height: 90%;
+    padding: 30px;
+        
+}
+#admin-block{
+    background-color: aliceblue;
+    height: 75%;
+    width: 70%;
+    margin: 3% auto;
+    border-radius: 255px;
+    text-align: center;
+    padding: 1%;
+    box-shadow: 3px 2px 3px  #032B43;
+}
+#admin-login{
+    margin-top: 4%;
+}
+#admin-login input{
+    
+    width: 50%;
+    padding: 1% 15px;
+    margin: 1%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    outline: none;
+    
+    
+}
+.submit-btn{
+    background-color:  #032B43;
+    color: aliceblue;
+    font-style: italic;
+    font-weight: 700;
+}
+.data-panel{
+    padding: 1%;
+    margin: 2%;
+    
+    
+}
+.dashboard-block{
+    color: #F8F7FF;
+    padding: 3%;
+    margin: 2% 0 2% 2%;
+    height: 140px;
+    border-radius: 4px;
+    font-family: Josefin Sans;
+    box-shadow: 1px 3px 3px black;
+    text-shadow: 3px 2px 3px #000;
+    
+}
+.imperialred{
+    background-color:  #9D061A;
+}
+.carnelian{
+    background-color: #A8201A;
+}
+.darkcyan{
+    background-color: #0F8B8D;
+}
+.deepsafron{
+    background-color: #EE7C2F;
+}
+.amaranth{
+    background-color: #E83151;
+}
+.midnblue{
+    background-color: #005366;
+}
+.bold{
+    font-weight: 700;
+}
+.dashboard-block i{
+
+    position: relative;
+    left: 70%;
+    
+}
+#box-outer{
+    margin: 2% 5%;
+    border: 2px solid #142129;
+    border-radius: 5px;
+    color: aliceblue;
+    font-family: Josefin Sans;
+}
+.box-outer-heading{
+    background-color: #2374AB;
+    padding: 5px 10px;
+}
+.content-box{
+    margin: 0 3%;
+}
