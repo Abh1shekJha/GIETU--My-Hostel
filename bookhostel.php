@@ -26,23 +26,50 @@
                 </div>
                    
         
-        <form class="row g-4" method="post" action="ureg.php">
+        <form class="row g-4" method="get" action="">
         
             <h5 class="bg-dark col-md-3" style="color: green; padding: 4px;font-weight:600; margin-bottom:0;">Room Info:</h5>
             <div class="row g-3">
             
                 <div class="col-md-4">
-                  <select name="gender"  class="form-select" aria-label="Gender">
+                  <select name="hostel"  class="form-select" aria-label="Hostel">
                   <option selected>Select Hostel</option>
-                  <option value="M">NC-5</option>
-                  <option value="F">Female</option>
+                    
+                      <?php
+                            include "dbconn.php";
+                            $sql = "SELECT `h_name` FROM `hostel` WHERE 1";
+                            $result = mysqli_query($conn,$sql);
+                            $i=0;
+                            while($rws = mysqli_fetch_array($result))
+                            {
+                               
+                      ?>
+                      
+                    
+                  <option value=""><?php echo $rws[$i];?></option>
+                      
+                      <?php
+                            }
+                      ?>
+                      
+                      
                   </select>
                 </div>
                 <div class="col-md-4">
-                  <select name="gender"  class="form-select" aria-label="Gender">
+                  <select name="room_no"  class="form-select" aria-label="Room No.">
                   <option selected>Room No.</option>
-                  <option value="M">NC-5</option>
-                  <option value="F">Female</option>
+                      
+                    <?php
+                        for($i=1; $i<=10; $i++){
+                            
+                      
+                      ?>
+                  <option value="<?php echo $i;?>"><?php echo $i;?></option>
+                    
+                      <?php
+                        }
+                      ?>
+                  
                   </select>
                 </div>
             </div>
@@ -216,6 +243,13 @@
       
       
       
+
+<!-- JQUERY -->
+<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
       
