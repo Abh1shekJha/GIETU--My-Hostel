@@ -9,41 +9,12 @@
 
 
     include('includes/top.php');
-
+    include('includes/sidebar.php');
 
 
 ?>
       
-      <section id="left-panel">
-      
-          <div id="content-box">
-          
-              <span>MAIN</span>
-              <ul id="Menu" class="Menu">
-              
-                 <li><i class="fas fa-laptop-house"></i><a href="dashboard.html"> Dashboard</a></li>
-                 <li><li><i class="fas fa-bed"></i><a href="index.html"> Rooms</a></li>
-                 <li><li><i class="fas fa-user"></i><a href="adminlogin.html"> Student Registration</a></li>
-                  
-                 <li><li><i class="fas fa-users"></i><a href="adminlogin.html"> Manage Students</a></li>
-                <li><li><i class="fas fa-comments"></i><a href="adminlogin.html"> Commnicate</a></li>
-              </ul>
-         
-              <hr>
-              <ul id="Profile" class="Menu">
-              
-                 <li><i class="fas fa-user-circle"></i><a href="dashboard.html"> My Profile</a></li>
-                 <li><li><i class="fas fa-sign-out-alt
-"></i><a href="logout.php"> Logout</a></li>
-          </ul>
-          </div>
-          
-          
-          
-
-      
-      </section>
-    
+     
       
       <section id="dashboard" class="right-panel">
       
@@ -55,46 +26,58 @@
               
               
               <div class="row">
-                  <div id="hostel-rooms" class="col dashboard-block deepsafron">
+                  
+                  <a href="#" style="text-decoration:none;" class="col dashboard-block deepsafron">
+                  <div id="hostel-rooms" class="">
                       
                         <i class="fas fa-hotel fa-4x"></i>
 
                       <h5 class="bold">Hostel Rooms</h5>
                   </div>
-                  
-                  <div id="alot-rooms" class="col dashboard-block amaranth">
+                  </a>
+                  <a style="text-decoration:none;" class="col dashboard-block amaranth"href="#">
+                  <div id="alot-rooms" class="">
                       <i class="fas fa-id-card fa-4x"></i>
                     <h5 class="bold">Room Allotment</h5>
                   </div>
-                  
-                  <div class="col dashboard-block imperialred" style="margin-right: 2%;">
+                  </a>
+                
+                  <a href="#" style="text-decoration:none; margin-right: 2%;" class="col dashboard-block imperialred">
+                  <div class="" style="margin-right: 2%;">
                     
                       <i class="fas fa-book-dead fa-4x"></i>
                       <h5 class="bold">View Complaints</h5>
                   </div>
+                      </a>
                                   
               </div>
               
               
               <div class="row">
-                  <div id="hostel-rooms" class="col dashboard-block darkcyan">
+                  
+                  <a href="#" style="text-decoration:none" class="col dashboard-block darkcyan"> 
+                  <div id="hostel-rooms">
                       
                         <i class="fas fa-user-graduate fa-4x"></i>
 
                       <h5 class="bold">Hostel Users</h5>
                   </div>
+                  </a>
                   
-                  <div id="alot-rooms" class="col dashboard-block carnelian">
+                  <a href="#" style="text-decoration:none" class="col dashboard-block carnelian">
+                  <div id="alot-rooms">
                       <i class="fas fa-clipboard-list fa-4x"></i>
                     <h5 class="bold">Staff Attendance</h5>
                   </div>
+                  </a>
                   
-                  <div class="col dashboard-block midnblue" style="margin-right: 2%;">
+                  <a href="#" style="text-decoration:none; margin-right: 2%;"  class="col dashboard-block midnblue">
+                  <div  style="">
                     
                       <i class="fas fa-phone-alt fa-4x"></i>
                       <h5 class="bold">View Enquiry</h5>
                   </div>
-                                  
+                    </a>              
               </div>
               
               

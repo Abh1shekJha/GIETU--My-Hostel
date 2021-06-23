@@ -5,7 +5,7 @@
               <span>MAIN</span>
               <ul id="Menu" class="Menu">
             
-            <?php if(isset($_SESSION['username']))      
+            <?php if(isset($_SESSION['username']) && $_SESSION['isAdmin'] == false)      
             {?>
                  <li><i class="fas fa-laptop-house"></i><a href="studentdashboard.php"> Dashboard</a></li>
                   <li><li><i class="far fa-file"></i><a href="bookhostel.php"> Book Hostel</a></li>
@@ -22,6 +22,28 @@
                  <li><i class="fas fa-user-circle"></i><a href="dashboard.html"> My Profile</a></li>
                   <li><i class="fas fa-key"></i><a href="dashboard.html"> Change Password</a></li>
                  <li><li><i class="fas fa-sign-out-alt"></i><a href="logout.php"> Logout</a></li>
+                  
+                    
+                <?PHP } 
+                else if(isset($_SESSION['username']) && $_SESSION['isAdmin']==true)
+				{ ?>
+                
+                  <li><i class="fas fa-laptop-house"></i><a href="dashboard.php"> Dashboard</a></li>
+                 <li><li><i class="fas fa-bed"></i><a href="index.html"> Rooms</a></li>
+                 <li><li><i class="fas fa-user"></i><a href="adminlogin.html"> Student Registration</a></li>
+                  
+                 <li><li><i class="fas fa-users"></i><a href="adminlogin.html"> Manage Students</a></li>
+                <li><li><i class="fas fa-comments"></i><a href="adminlogin.html"> Commnicate</a></li>
+              </ul>
+         
+              <hr>
+              <ul id="Profile" class="Menu">
+              
+                 <li><i class="fas fa-user-circle"></i><a href="dashboard.html"> My Profile</a></li>
+                 <li><li><i class="fas fa-sign-out-alt
+"></i><a href="logout.php"> Logout</a></li>
+                  
+                  
                   
                 <?php } else { ?>
                   

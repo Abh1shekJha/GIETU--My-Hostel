@@ -15,7 +15,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         session_start();
         $_SESSION['loggedin'] = true;
         $_SESSION['username'] = $uname;
-        
+        $_SESSION['isAdmin'] = true;
         header("Location:dashboard.php");
         
     }

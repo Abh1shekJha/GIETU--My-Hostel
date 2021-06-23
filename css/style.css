@@ -1,3 +1,4 @@
+
 html, body{
     height: 100%;
     margin: 0;
@@ -204,6 +205,7 @@ header{
     
     
 }
+
 .dashboard-block{
     color: #F8F7FF;
     padding: 3%;
@@ -213,7 +215,11 @@ header{
     font-family: Josefin Sans;
     box-shadow: 1px 3px 3px black;
     text-shadow: 3px 2px 3px #000;
-    
+        
+}
+.dashboard-block:hover{
+    background-color: #0D2C54;
+    color: aliceblue;
 }
 .imperialred{
     background-color:  #9D061A;
@@ -242,6 +248,7 @@ header{
     left: 70%;
     
 }
+
 .box-outer{
     margin: 5% 5% 10% 5%;
     border: 2px solid #142129;
