@@ -12,13 +12,19 @@ html, body{
 }
 header{
     height: 10%;
+    width: 100%;
+    z-index: 3;
     background-color: #1B2C37;
+    position: fixed;
 }
 
 #left-panel{
     width: 20%;
     height: 90%;
+    top: 10%;
     float: left;
+    position: fixed;
+    z-index: 2;
     background-color: #142129;
 }
 #right-panel{
@@ -30,7 +36,9 @@ header{
     width: 80%;
     height: 90%;
     background-color: #C6C7C4;
-    float: left;
+    float: right;
+    position: relative;
+    top: 10%;
     margin-right: 0;
 }
 #content-box{
@@ -154,6 +162,8 @@ header{
     background-attachment:fixed;
     height: 90%;
     padding: 30px;
+    position: relative;
+    top: 10%;
         
 }
 #admin-block{
@@ -232,8 +242,8 @@ header{
     left: 70%;
     
 }
-#box-outer{
-    margin: 2% 5%;
+.box-outer{
+    margin: 5% 5% 10% 5%;
     border: 2px solid #142129;
     border-radius: 5px;
     color: aliceblue;
@@ -245,4 +255,13 @@ header{
 }
 .content-box{
     margin: 0 3%;
+}
+.lg-right{
+    
+    width: 80%;
+    background-color: #C6C7C4;
+    float: right;
+    position: relative;
+    top: 10%;
+    margin-right: 0;
 }

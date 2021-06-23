@@ -13,7 +13,7 @@
     include('includes/sidebar.php');
 ?>
 
-<section class="right-panel">
+<section class="lg-right">
     
   
         <div id="box-outer" class="box-outer">
@@ -86,7 +86,11 @@
                 <div class="row g-3">
                   <div class="col-md-6">
                     <input name="rno" type="text" class="form-control" placeholder="Registration No." aria-label="Registration No.">
-                  </div>              
+                  </div>     
+                
+                 <div class="col">
+                    <input name="email" type="email" class="form-control" placeholder="Email" aria-label="Email">
+                  </div>
                 </div>
                 
             <div class="row g-3">
@@ -117,30 +121,83 @@
 
             <div class="row g-3">
               <div class="col">
-                <input name="username" type="text" class="form-control" placeholder="Username" aria-label="Username">
+                <input name="emergency_contact" type="text" class="form-control" placeholder="Emergency Contact" aria-label="Username">
               </div>
-              <div class="col">
-                <input name="email" type="email" class="form-control" placeholder="Email" aria-label="Email">
-              </div>
+                
+                <div class="col">
+                    <input name="guardian_name" type="text" class="form-control" placeholder="Guardian Name" aria-label="Password">
+                  </div>
             </div>
 
             <div class="row g-3">
+              
               <div class="col">
-                <input name="pwd" type="password" class="form-control" placeholder="Password" aria-label="Password">
+                <input name="guardian_rel" type="text" class="form-control" placeholder="Guardian Relation" aria-label="Guardian Relation">
               </div>
-              <div class="col">
-                <input name="cpwd" type="password" class="form-control" placeholder="Confirm password" aria-label=Confirm Password>
+                <div class="col">
+                <input name="guardian_mob" type="text" class="form-control" placeholder="Guardian Contact No." aria-label="guardian contact">
               </div>
             </div>
 
            
+             <h5 class="bg-dark col-md-3" style="color: green; padding: 4px;font-weight:600; margin-bottom:0;">Correspondense Address:</h5>
                            
-           
+            
+            <div class="row g-3">
+              
+                <div class="form-group col-md-8">
+                    <textarea placeholder="Address"class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+            </div>
+
+           <div class="row g-3">
+              
+              <div class="col">
+                <input name="City" type="text" class="form-control" placeholder="City" aria-label="City">
+              </div>
+                <div class="col">
+                <input name="State" type="text" class="form-control" placeholder="State" aria-label="State">
+              </div>
+               
+               <div class="col">
+                <input name="Pincode" type="text" class="form-control" placeholder="Pincode" aria-label="State">
+              </div>
+            </div>
+            
+            
+             <h5 class="bg-dark col-md-3" style="color: green; padding: 4px;font-weight:600; margin-bottom:0;">Permanent Address:</h5>
+                           
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label text-dark" for="flexCheckDefault">
+                Permanent Address same as Correspondense address
+              </label>
+            </div>
+            <div class="row g-3">
+              
+                <div class="form-group col-md-8">
+                    <textarea placeholder="Address"class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+            </div>
+
+           <div class="row g-3">
+              
+              <div class="col">
+                <input name="City" type="text" class="form-control" placeholder="City" aria-label="City">
+              </div>
+                <div class="col">
+                <input name="State" type="text" class="form-control" placeholder="State" aria-label="State">
+              </div>
+               
+               <div class="col">
+                <input name="Pincode" type="text" class="form-control" placeholder="Pincode" aria-label="State">
+              </div>
+            </div>
               <div class="col-12">
-                <button type="submit" class="btn btn-primary">Sign Up</button>
+                <button type="submit" class="btn btn-primary">Register</button>
               </div>
             </form>
-             
+             <br>
         
             </div>
         </div>
