@@ -46,7 +46,7 @@
                       ?>
                       
                     
-                  <option value=""><?php echo $rws[$i];?></option>
+                  <option onchange="function(this.value)" value="<?php echo $rws[$i];?>"><?php echo $rws[$i];?></option>
                       
                       <?php
                             }
@@ -130,7 +130,7 @@
             </div>
                 
             
-             
+            
             
             <div class="row g-3">
             
@@ -240,7 +240,6 @@
           </div>
       </section>
     
-      
       
       
 
