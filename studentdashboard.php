@@ -35,23 +35,27 @@
               
               
               <div class="row">
-                  <div id="hostel-rooms" class="col dashboard-block darkcyan">
-                      
-                        <i class="fas fa-user-graduate fa-4x"></i>
-
-                      <h5 class="bold">My Profile</h5>
-                  </div>
                   
-                  <div id="alot-rooms" class="col dashboard-block carnelian">
+                  
+                  <a href="#" style="text-decoration:none;" class="col dashboard-block darkcyan">
+                      <div id="hostel-rooms">    
+                            <i class="fas fa-user-graduate fa-4x"></i>
+                            <h5 class="bold">My Profile</h5>
+                      </div>
+                  </a>
+                  <a href="roomdetails.php" style="text-decoration:none;" class="col dashboard-block carnelian">
+                  <div id="alot-rooms">
                       <i class="fas fa-house-user fa-4x"></i>
                     <h5 class="bold">My Room</h5>
                   </div>
-                  
-                  <div class="col dashboard-block midnblue" style="margin-right: 2%;">
+                  </a>
+                  <a href="#" style="text-decoration:none; margin-right: 2%;" class="col dashboard-block midnblue">
+                  <div class="" style="margin-right: 2%;">
                     
-                      <i class="fas fa-exclamation-triangle fa-4x"></i>
+                      <i class="fas fa-book-dead fa-4x"></i>
                       <h5 class="bold">Complain</h5>
                   </div>
+                  </a>
                                   
               </div>
               
