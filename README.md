@@ -7,9 +7,15 @@ simplifying life of students and staffs through its features.
 
 
 ## Preview: 
-
-<img src="screenshots/" width="48%">
-
+ 
+<img src="preview/101.jpg" width="30%"> <img src="preview/102.jpg" width="30%"> <img src="preview/103.jpg" width="30%"> 
+<img src="preview/104.jpg" width="30%"> <img src="preview/105.jpg" width="30%"> <img src="preview/106.jpg" width="30%"> 
+<img src="preview/107.jpg" width="30%"> <img src="preview/108.jpg" width="30%"> <img src="preview/109.jpg" width="30%"> 
+ 
+ <br>
+ 
+ 
+[View Preview in full screen](PREVIEW.md)
 
  ## FEATURES: 
     It enables two user types:
@@ -50,3 +56,8 @@ The dashboard consists of a graphical menu having options: Hostel Rooms, Room Al
 6. Change Password: Allows user to change its password. 
 
 7. Logout: Logs you out and brings you back to the home screen.
+
+
+
+## CONTRIBUTE TO MAKE IT BETTER!
+ > THANK YOU! 😎
